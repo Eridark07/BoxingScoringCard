@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+
+input {
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: serif;
+    color: white;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: serif;
+}
+
+button:hover {
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    border-radius: 10px;
+}
+
+button {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.columns {
+    flex: 1;
+    text-align: center;
+}
+
+hr {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+
+select {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    padding: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 0.5em;
+    }
+
+    button {
+        margin-top: 1em;
+    }
+
+    .columns {
+        margin-top: 1em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px; /* Decrease font size for smaller screens */
+        padding: 8px; /* Reduce padding for smaller screens */
+    }
+
+    select {
+        font-size: 14px; /* Decrease font size for smaller screens */
+        padding: 3px; /* Reduce padding for smaller screens */
+    }
+
+    input[type="number"] {
+        padding: 8px; /* Reduce padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    hr {
+        margin: 10px; /* Adjust spacing for smaller screens */
+    }
+}
