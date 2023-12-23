@@ -2,7 +2,7 @@
 
 This web application allows you to calculate and compare scores for two fighters based on their individual round scores and deductions. The application will determine the winner or if the match ended in a draw.
 
-Explore the live project by visiting the BoxingScoreCard web application at https://eridark07.github.io/BoxingScoringCard/, where you can experience the interactive features and functionalities in action
+Explore the live project by visiting the BoxingScoreCard web application at https://ericdragomir.github.io/BoxingScoringCard/ where you can experience the interactive features and functionalities in action
 
 ## Table of Contents
 
